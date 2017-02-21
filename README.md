@@ -42,6 +42,8 @@ Init the repo and sync:
 
 	$ ./compile_all.sh
 
+Default out directory : *armadito/core/build/linux/out*
+
 ## More informations ##
 
 Project home : http://www.teclib-edition.com/teclib-products/armadito-antivirus
