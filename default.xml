@@ -4,7 +4,7 @@
 	<default revision="DEV" remote="origin" />
 	
 	<!-- Core -->
-	<project path="core" name="armadito-av.git" revision="manifest-tree" >
+	<project path="core" name="armadito-av.git" revision="DEV" >
 		<linkfile src="./build/linux/scripts/build.sh" dest="build.sh" />
 	</project>
 
