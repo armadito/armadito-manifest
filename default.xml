@@ -5,7 +5,7 @@
 	
 	<!-- Core -->
 	<project path="core" name="armadito-av.git" revision="manifest-tree" >
-		<linkfile src="./build/linux/scripts/compile_all.sh" dest="compile_all.sh" />
+		<linkfile src="./build/linux/scripts/build.sh" dest="build.sh" />
 	</project>
 
 	<!-- Modules -->

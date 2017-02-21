@@ -40,7 +40,7 @@ Init the repo and sync:
 
 ## Build the project (linux only) ##
 
-	$ ./compile_all.sh
+	$ ./build.sh
 
 Default out directory : *armadito/core/build/linux/out*
 
