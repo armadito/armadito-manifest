@@ -20,6 +20,7 @@
 
 	<!-- Agents -->
 	<project path="agents/prelude" name="armadito-prelude.git" revision="master" />
+	<project path="agents/armadito" name="armadito-agent.git" />
 
 	<!-- Documentation -->
 	<project path="doc" name="armadito-doc.git" />
