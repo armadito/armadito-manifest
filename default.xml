@@ -2,7 +2,7 @@
 <manifest>
     <remote name="origin" fetch="ssh://git@github.com/armadito/" />
 	<default revision="DEV" remote="origin" />
-
+	
 	<!-- Core -->
 	<project path="core" name="armadito-av.git" revision="manifest-tree" >
 		<linkfile src="./build/linux/scripts/compile_all.sh" dest="compile_all.sh" />
@@ -17,10 +17,6 @@
 	<!-- UI -->
 	<project path="ui/web-ui" name="armadito-web-ui.git" />
 	<project path="ui/systray-ui" name="armadito-systray-ui.git" />
-
-	<!-- Agents -->
-	<project path="agents/prelude" name="armadito-prelude.git" revision="master" />
-	<project path="agents/glpi" name="armadito-agent.git" />
 
 	<!-- Documentation -->
 	<project path="doc" name="armadito-doc.git" />
