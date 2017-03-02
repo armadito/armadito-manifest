@@ -2,7 +2,13 @@
 <manifest>
     <remote name="origin" fetch="ssh://git@github.com/armadito/" />
 	<default revision="DEV" remote="origin" />
-	
+
+    <!-- Build tools -->
+    <project path="build" name="armadito-build" revision="master">
+        <linkfile src="./configure.ac" dest="configure.ac" />
+        <linkfile src="./Makefile.am" dest="Makefile.am" />
+    </project>
+
 	<!-- Core -->
 	<project path="core" name="armadito-av.git" revision="DEV" >
 		<linkfile src="./build/linux/scripts/build.sh" dest="build.sh" />
