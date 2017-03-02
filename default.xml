@@ -11,7 +11,7 @@
     </project>
 
     <!-- Core -->
-    <project path="core" name="armadito-av.git" revision="DEV" >
+    <project path="armadito-core" name="armadito-av.git" revision="DEV" >
         <linkfile src="./build/linux/scripts/build.sh" dest="build.sh" />
     </project>
 
