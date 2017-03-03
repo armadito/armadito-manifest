@@ -4,7 +4,7 @@
     <default revision="DEV" remote="origin" />
 
     <!-- Build tools -->
-    <project path="build" name="armadito-build">
+    <project path="build" name="armadito-build.git">
         <linkfile src="./configure.ac" dest="configure.ac" />
 	<linkfile src="./Makefile.am" dest="Makefile.am" />
         <linkfile src="./autogen.sh" dest="autogen.sh" />
@@ -18,13 +18,12 @@
     <!-- Modules -->
     <project path="modules/mod-pdf" name="armadito-mod-pdf.git" />
     <project path="modules/mod-yara" name="armadito-mod-yara.git" />
-    <project path="modules/mod-h1" name="armadito-mod-h1.git" />
     <project path="modules/mod-clamav" name="armadito-mod-clamav.git" />
 
     <!-- UI -->
-    <project path="ui/web-ui" name="armadito-web-ui.git" />
     <project path="ui/systray-ui" name="armadito-systray-ui.git" />
 
     <!-- Documentation -->
     <project path="doc" name="armadito-doc.git" />
+
 </manifest>
