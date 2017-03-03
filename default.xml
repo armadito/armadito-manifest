@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="ssh://git@github.com/armadito/" />
+    <remote name="origin" fetch="git://github.com/armadito/" />
     <default revision="DEV" remote="origin" />
 
     <!-- Build tools -->
