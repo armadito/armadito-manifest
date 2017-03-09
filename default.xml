@@ -22,6 +22,7 @@
 
     <!-- UI -->
     <project path="ui/systray-ui" name="armadito-systray-ui.git" />
+    <project path="ui/nautilus" name="armadito-nautilus.git" />
 
     <!-- Documentation -->
     <project path="doc" name="armadito-doc.git" />
