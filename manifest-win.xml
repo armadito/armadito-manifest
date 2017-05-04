@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin" fetch="ssh://git@github.com/armadito/" />
+    <default revision="DEV" remote="origin" />
+
+    <!-- Build tools -->
+    <project path="build" name="armadito-build.git">
+    </project>
+
+    <!-- Core -->
+    <project path="armadito-core" name="armadito-av.git" revision="DEV" >
+    </project>
+
+    <!-- Modules -->
+    <project path="modules/mod-pdf" name="armadito-mod-pdf.git" />
+    <project path="modules/mod-yara" name="armadito-mod-yara.git" />
+    <project path="modules/mod-clamav" name="armadito-mod-clamav.git" />
+
+    <!-- UI -->
+    <project path="ui/systray-ui" name="armadito-systray-ui.git" />
+
+    <!-- Windows dependencies -->
+    <project path="windows-deps" name="armadito-windows-deps.git" />
+
+    <!-- Documentation -->
+    <project path="doc" name="armadito-doc.git" />
+
+</manifest>
