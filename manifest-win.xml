@@ -8,7 +8,7 @@
     </project>
 
     <!-- Core -->
-    <project path="armadito-core" name="armadito-av.git" revision="DEV" >
+    <project path="armadito-core" name="armadito-av.git" >
     </project>
 
     <!-- Modules -->
@@ -20,7 +20,7 @@
     <project path="ui/systray-ui" name="armadito-systray-ui.git" />
 
     <!-- Windows dependencies -->
-    <project path="windows-deps" name="armadito-windows-deps.git" />
+    <project path="windows-deps" name="armadito-windows-deps.git" revision="master" />
 
     <!-- Documentation -->
     <project path="doc" name="armadito-doc.git" />
