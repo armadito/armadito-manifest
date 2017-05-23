@@ -32,10 +32,19 @@ Create an emty directory:
 	$ mkdir armadito
 	$ cd armadito
 
-Init the repo and sync:
+Init the repo:
 
-	$ repo init -u git@github.com:armadito/armadito-manifest.git -b DEV
-	$ repo sync
+For Linux:
+
+	$ repo init -u git@github.com:armadito/armadito-manifest.git -b DEV -m manifest-linux.xml
+
+For Windows:
+
+	$ repo init -u git@github.com:armadito/armadito-manifest.git -b DEV -m manifest-win.xml
+
+and sync:
+
+        $ repo sync
 
 
 ## Build the project (linux only) ##

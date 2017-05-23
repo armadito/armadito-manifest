@@ -5,15 +5,13 @@
 
     <!-- Build tools -->
     <project path="build" name="armadito-build.git">
-        <linkfile src="./configure.ac" dest="configure.ac" />
-	<linkfile src="./Makefile.am" dest="Makefile.am" />
-        <linkfile src="./autogen.sh" dest="autogen.sh" />
+        <linkfile src="./linux/configure.ac" dest="configure.ac" />
+	<linkfile src="./linux/Makefile.am" dest="Makefile.am" />
+        <linkfile src="./linux/autogen.sh" dest="autogen.sh" />
     </project>
 
     <!-- Core -->
-    <project path="armadito-core" name="armadito-av.git" revision="DEV" >
-        <linkfile src="./build/linux/scripts/build.sh" dest="build.sh" />
-    </project>
+    <project path="armadito-core" name="armadito-av.git" />
 
     <!-- Modules -->
     <project path="modules/mod-pdf" name="armadito-mod-pdf.git" />

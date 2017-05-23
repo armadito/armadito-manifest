@@ -4,12 +4,10 @@
     <default revision="DEV" remote="origin" />
 
     <!-- Build tools -->
-    <project path="build" name="armadito-build.git">
-    </project>
+    <project path="build" name="armadito-build.git"/>
 
     <!-- Core -->
-    <project path="armadito-core" name="armadito-av.git" >
-    </project>
+    <project path="armadito-core" name="armadito-av.git" />
 
     <!-- Modules -->
     <project path="modules/mod-pdf" name="armadito-mod-pdf.git" />
