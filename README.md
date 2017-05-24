@@ -42,9 +42,13 @@ For Windows:
 
 	$ repo init -u git@github.com:armadito/armadito-manifest.git -b DEV -m manifest-win.xml
 
-and sync:
+Sync:
 
         $ repo sync
+	
+and finally switch to branch DEV:
+
+	* repo forall -c git checkout DEV
 
 
 ## Build the project (linux only) ##
