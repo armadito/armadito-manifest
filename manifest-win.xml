@@ -11,11 +11,11 @@
     <project path="armadito-core" name="armadito-av.git" revision="DEV" />
 
     <!-- Modules -->
-    <project path="modules/mod-pdf" name="armadito-mod-pdf.git" />
-    <project path="modules/mod-yara" name="armadito-mod-yara.git" />
-    <project path="modules/mod-clamav" name="armadito-mod-clamav.git" />
+    <project path="modules/mod-pdf" name="armadito-mod-pdf.git" revision="DEV" />
+    <project path="modules/mod-yara" name="armadito-mod-yara.git" revision="DEV" />
+    <project path="modules/mod-clamav" name="armadito-mod-clamav.git" revision="DEV" />
 
     <!-- Documentation -->
-    <project path="doc" name="armadito-doc.git" />
+    <project path="doc" name="armadito-doc.git" revision="DEV" />
 
 </manifest>
