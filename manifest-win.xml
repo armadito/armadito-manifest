@@ -7,7 +7,7 @@
     <project path="build" name="armadito-build.git"/>
 
     <!-- Core -->
-    <project path="armadito-core" name="armadito-av.git" />
+    <project path="armadito-core" name="armadito-av.git" revision="DEV" />
 
     <!-- Modules -->
     <project path="modules/mod-pdf" name="armadito-mod-pdf.git" />
