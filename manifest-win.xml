@@ -17,9 +17,6 @@
     <!-- UI -->
     <project path="ui/systray-ui" name="armadito-systray-ui.git" />
 
-    <!-- Windows dependencies -->
-    <project path="windows-deps" name="armadito-windows-deps.git" revision="master" />
-
     <!-- Documentation -->
     <project path="doc" name="armadito-doc.git" />
 
