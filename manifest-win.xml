@@ -14,9 +14,6 @@
     <project path="modules/mod-yara" name="armadito-mod-yara.git" />
     <project path="modules/mod-clamav" name="armadito-mod-clamav.git" />
 
-    <!-- UI -->
-    <project path="ui/systray-ui" name="armadito-systray-ui.git" />
-
     <!-- Documentation -->
     <project path="doc" name="armadito-doc.git" />
 
