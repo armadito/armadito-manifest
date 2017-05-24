@@ -5,7 +5,7 @@
     <default remote="origin" />
 
     <!-- Build tools -->
-    <project path="build" name="armadito-build.git"/>
+    <project path="build" name="armadito-build.git" revision="DEV"/>
 
     <!-- Core -->
     <project path="armadito-core" name="armadito-av.git" revision="DEV" />
