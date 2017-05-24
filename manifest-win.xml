@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin" fetch="ssh://git@github.com/armadito/" />
-    <!-- default revision="DEV" remote="origin" / -->
-    <default remote="origin" />
+    <default revision="DEV" remote="origin" />
 
     <!-- Build tools -->
-    <project path="build" name="armadito-build.git" revision="DEV"/>
+    <project path="build" name="armadito-build.git" />
 
     <!-- Core -->
-    <project path="armadito-core" name="armadito-av.git" revision="DEV" />
+    <project path="armadito-core" name="armadito-av.git" />
 
     <!-- Modules -->
-    <project path="modules/mod-pdf" name="armadito-mod-pdf.git" revision="DEV" />
-    <project path="modules/mod-yara" name="armadito-mod-yara.git" revision="DEV" />
-    <project path="modules/mod-clamav" name="armadito-mod-clamav.git" revision="DEV" />
+    <project path="modules/mod-pdf" name="armadito-mod-pdf.git" />
+    <project path="modules/mod-yara" name="armadito-mod-yara.git" />
+    <project path="modules/mod-clamav" name="armadito-mod-clamav.git" />
 
     <!-- Documentation -->
-    <project path="doc" name="armadito-doc.git" revision="DEV" />
+    <project path="doc" name="armadito-doc.git" />
 
 </manifest>
